@@ -1,10 +1,10 @@
 {
-  "name": "components-callout",
-  "version": "1.0.0",
-  "description": "Arcteryx Virtual Advisor Callout",
-  "author": "edwardmolasses",
+  "name": "components-locally",
+  "version": "1.0.6",
+  "description": "Arcteryx Locally Widget",
+  "author": "alachkovics",
   "license": "ISC",
-  "repository": "edwardmolasses/components-callout",
+  "repository": "alachkovics/components-callout",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-async-script": "^1.2.0"
+  }
 }
